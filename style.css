@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header */
+h1 {
+  text-align: center;
+}
+/* Center the image */
+section#featured-property img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+/* Center nav links, 
+give <a> tags 10px padding on left and right sides,
+change background color */
+nav {
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(238, 238, 238);
+}
+/* Center image caption + shrink font size */
+section#featured-property figcaption {
+  text-align: center;
+  font-size: medium;
+}
+
+/* Give all <p>'s within #featured-property 800px width,
+center text, and keep vertical space around <p>'s
+ */
+section#featured-property p {
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+  padding: 10px;
+}
+
+ /* Make #details section horizontal (make each <div> float to left) */
+ /* All <div>'s at bottom should have same background color, 
+ centered text, and occupy 25% of width of bottom row */
+section#details div {
+  float: left;
+  background-color: rgb(177, 34, 34);
+  text-align: center;
+  width: 25%;
+}
